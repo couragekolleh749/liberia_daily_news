@@ -1,16 +1,16 @@
 name: liberia_daily_news
-description: A news app for Liberia
+description: A Flutter app for Liberia Daily News
 version: 1.0.0+1
 
-# ✅ Correct SDK constraint
+publish_to: 'none' # since this is not a package
+
 environment:
-  sdk: ">=3.9.0 <4.0.0"
+  sdk: '>=3.9.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.5
 
 dev_dependencies:
   flutter_test:
@@ -20,9 +20,12 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  # ✅ All images in this folder
   assets:
-    - assets/images/
+    - assets/images/politics.jpg
+    - assets/images/sports.jpg
+    - assets/images/entertainment.jpg
+    - assets/images/all.jpg
+
 
 
 
